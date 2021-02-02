@@ -1,6 +1,6 @@
 # leaflet-challenge
 
-eaflet Homework - Visualizing Data with Leaflet
+Leaflet Homework - Visualizing Data with Leaflet
 
 Background
 
