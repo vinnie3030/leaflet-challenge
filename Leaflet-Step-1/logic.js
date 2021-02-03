@@ -4,7 +4,7 @@ var queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_we
 var query2 = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojson"
 
 // Perform a GET request to the query URL
-d3.json(queryUrl, function (data) {
+d3.json(queryUrl, function(data) {
     // Once we get a response, send the data.features object to the createFeatures function
     createFeatures(data.features);
 });
@@ -54,8 +54,8 @@ function createMap(earthquakes) {
 
     // Define streetmap and darkmap layers
     var streetmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/outdoors-v10/tiles/256/{z}/{x}/{y}?" +
-        "access_token=pk.eyJ1Ijoia2pnMzEwIiwiYSI6ImNpdGRjbWhxdjAwNG0yb3A5b21jOXluZTUifQ." +
-        "T6YbdDixkOBWH_k9GbS8JQ");
+        "access_token=pk.eyJ1IjoidmlubmllMzAzMCIsImEiOiJja2thMDN2NmQwbWpzMnhvMjdzeTJyZXQxIn0.biYPTrvA4s8vaCc0Tx7juQ" +
+        "T6YbdDixkOBWH_k9GbS8JQ.");
 
     // Define a baseMaps object to hold our base layers
     var baseMaps = {
